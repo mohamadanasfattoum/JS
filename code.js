@@ -25,7 +25,24 @@
 // console.log(y)
 
 
-let year = prompt ('how old you ?' ,'21')
-if (year=20) alert ('you are right!')
+// let year = prompt ('how old you ?' ,'21')
 
-console.log(year=20)
+// if (year=2015) alert ('you are right!');
+// alert ('you are smart!');
+// alert ('that is correct');
+
+
+let age = prompt ('Enter your Age:','20')
+// if (age == 20)
+// {console.log('you are 20 years old')}
+// else{console.log('you are too small')}
+// if (age < 20){console.log('you are small')}
+
+if (age < 20)
+{console.log('you < 20')}
+else if (age < 55)
+{console.log('you < 55')}
+
+// if (age > 20){console.log('you are big ')}
+
+
