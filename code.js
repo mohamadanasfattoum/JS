@@ -32,17 +32,40 @@
 // alert ('that is correct');
 
 
-let age = prompt ('Enter your Age:','20')
+// let age = prompt ('Enter your Age:','20')
 // if (age == 20)
 // {console.log('you are 20 years old')}
 // else{console.log('you are too small')}
 // if (age < 20){console.log('you are small')}
 
-if (age < 20)
-{console.log('you < 20')}
-else if (age < 55)
-{console.log('you < 55')}
+// if (age < 20)
+// {console.log('you < 20')}
+// else if (age < 55)
+// {console.log('you < 55')}
 
 // if (age > 20){console.log('you are big ')}
 
+// -----ternary operator
+// let alloaccess = (age > 18) ? true : false ;
+// console.log (alloaccess)
 
+
+// ------- multiple operator
+// if (age < 10) {
+//     message = ('age < 10')
+// }
+//  else if (age < 20) {
+//      message = ('age < 20')
+// }
+ 
+// else {
+//      message = (age)
+// }
+//  console.log(message)
+
+
+let age = prompt ('Enter your Age :',);
+
+let message = (age > 10) ? 'age > 10' : (age > 20) ? 'age > 20' : 'age' ;
+
+console.log(message);
