@@ -57,15 +57,124 @@
 //  else if (age < 20) {
 //      message = ('age < 20')
 // }
- 
+
 // else {
 //      message = (age)
 // }
 //  console.log(message)
 
 
-let age = prompt ('Enter your Age :',);
+// let age = prompt ('Enter your Age :',);
 
-let message = (age > 10) ? 'age > 10' : (age > 20) ? 'age > 20' : 'age' ;
+// let message = (age > 10) ? 'age > 10' : (age > 20) ? 'age > 20' : 'age' ;
 
-console.log(message);
+// console.log(message);
+
+
+// -----logical operter 
+
+// let username = 'admin'
+// let password = 12345
+// if (username == 'admin' || password == 123456){
+//     console.log('welcome')
+// }
+
+// let username = 'admin'
+// let password = 12345
+// if (username == 'admin' && password == 12345){
+//     console.log('welcome')
+// }
+
+'----While Loop'
+
+// let i=0
+
+// while (i<10) {
+//     console.log(i)
+//     i = i +2
+// }
+
+// -----DO while Loop
+
+// do{
+//     console.log(i)
+//     i = i +2
+// }
+// while (i<10) 
+
+
+// --------- For Loop
+
+
+// for ( let i=0 ; i<=10 ; i++) {
+//     console.log(i)
+// }
+
+// for ( let i=10 ; i>=0 ; i--) {
+//     console.log(i)
+// }
+
+// -------Break For Loop
+
+// for (let i = 0; i < 10; i++) {
+
+//     console.log(i)
+//     if (i == 6) break
+
+// }
+
+// -------Continue For Loop
+
+// for ( let i=0 ; i<10 ; i++) {
+
+//     if (i==6) continue 
+//     console.log(i)
+//     }
+
+
+// ---------Nested Loop
+
+// for ( let i=1 ; i<=10 ; i++) {
+ 
+//     console.log(i)
+//     }
+
+// for ( let i=1 ; i<=10 ; i++) {
+ 
+//     console.log('1'+'*'+i+'='+i*1)
+//     }
+
+
+// for ( let y=1 ; y<=5 ; y++){
+    
+//     for ( let i=1 ; i<=10 ; i++) {
+ 
+//         console.log(y+'*'+i+'='+i*y)
+//         }
+// }
+
+
+// for ( let y=1 ; y<=5 ; y++){
+    
+//     for ( let i=1 ; i<=10 ; i++) {
+ 
+//         console.log(y+'*'+i+'='+i*y)
+//         }
+//         console.log('--------------')
+
+// }
+
+
+
+let start = prompt('Enter Start : ')
+let end = prompt('Enter End : ')
+
+for ( let y=start ; y<=end ; y++){
+    
+    for ( let i=1 ; i<=10 ; i++) {
+ 
+        console.log(y+'*'+i+'='+i*y)
+        }
+        console.log('--------------')
+
+}
