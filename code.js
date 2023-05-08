@@ -166,15 +166,63 @@
 
 
 
-let start = prompt('Enter Start : ')
-let end = prompt('Enter End : ')
+// let start = prompt('Enter Start : ')
+// let end = prompt('Enter End : ')
 
-for ( let y=start ; y<=end ; y++){
+// for ( let y=start ; y<=end ; y++){
     
-    for ( let i=1 ; i<=10 ; i++) {
+//     for ( let i=1 ; i<=10 ; i++) {
  
-        console.log(y+'*'+i+'='+i*y)
-        }
-        console.log('--------------')
+//         console.log(y+'*'+i+'='+i*y)
+//         }
+//         console.log('--------------')
 
-}
+// }
+
+
+
+// for ( let y=0 ; y<=0 ; y++){
+//     console.log(y)
+//     for ( let i=1 ; i<=10 ; i++) {
+ 
+//         console.log(y+'X'+i+'='+i*y)  // 5X1=5 عبارة عن  (سرينغstring)   لهيك لازم نح ٌ+ بعد كل علامة
+//         }
+//         console.log('--------------')
+
+// }
+
+
+// -----------Function
+
+// function MySum (x , y) {
+//     console.log(x+y)
+// }
+// MySum (5 , 6)
+// MySum ( 5 , 60 )
+
+// function MySum (x=0 , y=0) {
+//     console.log(x+y)
+// }
+// MySum (5 , )
+// MySum ( 5 , 60 )
+
+
+
+// -------Return Value 
+
+// function MySum (x=0 , y=0) {
+//     return (x+y)
+// }
+
+// let u = MySum (5)
+
+// console.log(u)
+
+
+// console.log (MySum (5,60)
+// )
+
+
+let musum = (a,b) => a+b
+let y = musum(5,6)
+console.log(y*2)
