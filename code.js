@@ -222,6 +222,7 @@
 // console.log (MySum (5,60)
 // )
 
+// ---------Arrow function
 
 let musum = (a,b) => a+b
 let y = musum(5,6)

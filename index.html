@@ -7,9 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Javascript basics</h1>
+    <p id="text">Javascript basics</p>
+
+    <button onclick="changeText()"  onmouseover="changeBackgrund()" onmouseleave="changeBackgrundAgain()" > Change Text</button>
 
 
-    <script src="code.js"></script>
+
+    <script>
+        function changeText(){
+            document.getElementById('text').innerHTML = 'Hello Mystro'
+
+        }
+
+        function changeBackgrund(){
+            document.getElementById('text').style.backgroundColor = "red";
+        }
+
+        function changeBackgrundAgain(){
+            document.getElementById('text').style.backgroundColor = 'transparent';
+        }
+        
+    </script>
+    <!-- <script src="code.js"></script> -->
 </body>
 </html>
